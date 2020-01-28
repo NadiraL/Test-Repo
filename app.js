@@ -7,7 +7,7 @@ const index = books.indexOf(book);
 books.splice(index,1);
  
 res.send(book);
-});
+});awdaw
  
 function validateBook(book) {
 const schema = {
