@@ -13,6 +13,7 @@ function validateBook(book) {
 const schema = {
 title: Joi.string().min(3).required()
 };
+ 
 return Joi.validate(book, schema);
  
 }
